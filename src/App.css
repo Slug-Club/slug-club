@@ -56,12 +56,12 @@ body {
   background-color: #699430;
   border-radius: 50%;
   filter: blur(80px);
-  z-index: 1;
+  z-index: 0;
   position: fixed;
 }
 
 .spacer {
-  height: 100vh;
+  height: 30vh;
 }
 
 .phone {
@@ -73,12 +73,62 @@ body {
 }
 
 .bottom-spacer {
-  height: 35vh;
+  height: 50px;
 }
 
-/* @media (max-width: 500px) {
-  .circle {
-    height: 50px;
-    width: 50px;
-  }
-} */
+.window-container{
+position: relative;
+}
+
+.flyer-container {
+  position: relative;
+  z-index: 5;
+}
+
+.large-window {
+  max-width: 500px;
+  position: absolute;
+
+}
+
+.mission-statement-container {
+  position: relative;
+  z-index: 6;
+}
+
+.small-window {
+  max-width: 500px;
+}
+
+.mission-title {
+  position: absolute;
+  top: -10px;
+  z-index: 6;
+  left: 5px;
+  font-size: 16px;
+}
+
+.mission-statement {
+  z-index: 5;
+  position: absolute;
+  font-size: 18px;
+  bottom: 20px;
+  left: 20px;
+  max-width: 400px;
+}
+
+.flyer {
+  position: absolute;
+  max-width: 430px;
+  z-index: 6;
+  top: 80px;
+  left: 25px
+}
+
+.flyer-title {
+   position: absolute;
+  top: -10px;
+  z-index: 6;
+  left: 5px;
+  font-size: 16px; 
+}
