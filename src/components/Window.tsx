@@ -23,7 +23,9 @@ export default function Window() {
         <div className="flyer-container">
           <img className="large-window" src={largeWindow} />
           <p className="flyer-title">flyer.pdf</p>
-          <img className="flyer" src={flyer} />
+          <div className="flyer-image-container">
+            <img className="flyer" src={flyer} />
+          </div>
         </div>
       </div>
       <div className="bottom-spacer" />

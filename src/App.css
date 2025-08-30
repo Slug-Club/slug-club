@@ -82,13 +82,22 @@ body {
   position: relative;
 }
 
+.flyer-image-container {
+  display: flex;
+  max-width: 50em;
+  height: auto;
+}
+
 .flyer-container {
+  display: flex;
+  justify-content: flex-end;
   position: relative;
+  align-items: center;
   z-index: 5;
 }
 
 .large-window {
-  max-width: 45%;
+  max-width: 65%;
   height: auto;
   position: relative;
 }
@@ -104,11 +113,12 @@ body {
 .small-window {
   max-width: 75%;
   height: auto;
+  position: relative;
 }
 
 .mission-title {
   position: absolute;
-  top: 2.5em;
+  top: 8em;
   z-index: 6;
   left: 1em;
   font-size: 1.20vw;
@@ -118,7 +128,7 @@ body {
   z-index: 5;
   position: absolute;
   font-size: 1.25vw;
-  bottom: 4.5em;
+  bottom: 10em;
   left: 2em;
   max-width: 60%;
   height: auto;
@@ -126,17 +136,18 @@ body {
 
 .flyer {
   position: absolute;
-  max-width: 34%;
+  max-width: 55%;
   height: auto;
   z-index: 6;
-  top: 80px;
-  left: 25px
+  top: 8%;
+  right: 8%;
+  object-fit: contain;
 }
 
 .flyer-title {
   position: absolute;
-  top: -10px;
   z-index: 6;
-  left: 5px;
-  font-size: 16px; 
+  top: -.75em;
+  right: 20em;
+  font-size: 1.25vw; 
 }
