@@ -1,13 +1,14 @@
 import flyer from "../assets/flyer.png";
 import largeWindow from "../assets/large-window.png";
 import smallWindow from "../assets/small-window.png";
+import slugWindow from "../assets/slug-window.png";
 
 export default function Window() {
   return (
     <div>
       <div className="window-container">
         <div className="mission-statement-container">
-          <img className="small-window" src={smallWindow} />
+          <img className="mission-statement-window" src={smallWindow} />
           <p className="mission-title">mission_statement.txt</p>
           <p className="mission-statement">
             Slug Club RVA was founded by five dykes on a mission to create the
@@ -20,12 +21,13 @@ export default function Window() {
             <a href="mailto:slugrva@gmail.com">slugrva@gmail.com</a>
           </p>
         </div>
+        <div className="slug-window-container">
+          <img className="slug-window" src={slugWindow} />
+        </div>
         <div className="flyer-container">
-          <img className="large-window" src={largeWindow} />
+          <img className="flyer-window" src={largeWindow} />
           <p className="flyer-title">flyer.pdf</p>
-          <div className="flyer-image-container">
-            <img className="flyer" src={flyer} />
-          </div>
+          <img className="flyer" src={flyer} />
         </div>
       </div>
       <div className="bottom-spacer" />
