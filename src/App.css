@@ -120,6 +120,7 @@ body {
 .flyer-container {
   display: flex;
   justify-content: flex-start;
+  right: 6em;
   position: relative;
   align-items: center;
   z-index: 5;
@@ -155,7 +156,7 @@ body {
 }
 
 .slug-window {
-  max-width: 90%;
+  max-width: 95%;
 }
 
 /* Handling Phone Screens */
@@ -189,11 +190,12 @@ body {
     right: 0em;
   }
   .slug-window {
-    max-width: 30%;
+    max-width: 50%;
   }
   /* Flyer */
   .flyer-container {
     justify-content: center;
+    right: 0em;
   }
   .flyer-window {
     max-width: 80%;
