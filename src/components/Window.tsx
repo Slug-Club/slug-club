@@ -22,6 +22,7 @@ export default function Window() {
           </p>
         </div>
         <div className="slug-window-container">
+          <p className="slug-window-title">slug.jpeg</p>
           <img className="slug-window" src={slugWindow} />
         </div>
         <div className="flyer-container">
