@@ -87,33 +87,33 @@ body {
 }
 
 .mission-statement-window {
-  max-width: 75%;
+  max-width: 85%;
   height: auto;
   position: relative;
 }
 
 .mission-title {
   position: absolute;
-  top: 6em;
+  top: 9.75em;
   z-index: 6;
-  right: 12em;
+  left: 6em;
   font-size: 1.20vw;
 }
 
 .mission-statement {
   z-index: 5;
   position: absolute;
-  font-size: 1vw;
-  bottom: 10.5em;
-  left: 12em;
-  max-width: 60%;
+  font-size: 1.15vw;
+  bottom: 12em;
+  left: 6.5em;
+  max-width: 65%;
   height: auto;
 }
 
 /* Flyer Window */
 
 .flyer-window {
-  max-width: 65%;
+  max-width: 85%;
   height: auto;
   position: relative;
 }
@@ -128,7 +128,7 @@ body {
 
 .flyer {
   position: absolute;
-  max-width: 55%;
+  max-width: 65%;
   height: auto;
   z-index: 6;
   top: 8%;
@@ -139,8 +139,8 @@ body {
 .flyer-title {
   position: absolute;
   z-index: 6;
-  top: -1em;
-  right: 22em;
+  top: -.75em;
+  left: 3em;
   font-size: 1.20vw; 
 }
 
@@ -155,7 +155,7 @@ body {
 }
 
 .slug-window {
-  max-width: 70%;
+  max-width: 85%;
 }
 
 /* Handling Phone Screens */
