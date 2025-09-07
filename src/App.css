@@ -73,7 +73,6 @@ body {
 
 .window-container{
   display: flex;
-  position: relative;
 }
 
 /* Mission Statement Window */
@@ -82,7 +81,7 @@ body {
   display: flex;
   position: relative;
   justify-content: flex-end;
-  align-items: center;
+  align-items: first baseline;
   z-index: 6;
 }
 
@@ -94,7 +93,7 @@ body {
 
 .mission-title {
   position: absolute;
-  top: 9.75em;
+  top: -.7em;
   z-index: 6;
   left: 6em;
   font-size: 1.20vw;
@@ -104,7 +103,7 @@ body {
   z-index: 5;
   position: absolute;
   font-size: 1.15vw;
-  bottom: 12em;
+  top: 2em;
   left: 6.5em;
   max-width: 65%;
   height: auto;
@@ -120,7 +119,7 @@ body {
 
 .flyer-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   align-items: center;
   z-index: 5;
@@ -128,7 +127,7 @@ body {
 
 .flyer {
   position: absolute;
-  max-width: 65%;
+  max-width: 70%;
   height: auto;
   z-index: 6;
   top: 8%;
@@ -140,7 +139,7 @@ body {
   position: absolute;
   z-index: 6;
   top: -.75em;
-  left: 3em;
+  left: 1em;
   font-size: 1.20vw; 
 }
 
@@ -149,13 +148,14 @@ body {
 .slug-window-container {
   display: flex;
   position: relative;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  right: 4em;
   z-index: 6;
 }
 
 .slug-window {
-  max-width: 85%;
+  max-width: 90%;
 }
 
 /* Handling Phone Screens */
@@ -163,5 +163,46 @@ body {
 @media (max-width: 600px) {
   .window-container {
     flex-direction: column;
+    justify-content: center;
+  }
+  /* Mission Statement */
+  .mission-statement-container {
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  .mission-statement-window {
+    max-width: 80%;
+  }
+  .mission-title {
+    font-size: 2.5vw;
+    left: 5em;
+  }
+  .mission-statement {
+    font-size: 2.75vw;
+    max-width: 70%;
+    left: 5em;
+  }
+  /* Slug */
+  .slug-window-container {
+    padding-bottom: 1em;
+    justify-content: center;
+    right: 0em;
+  }
+  .slug-window {
+    max-width: 30%;
+  }
+  /* Flyer */
+  .flyer-container {
+    justify-content: center;
+  }
+  .flyer-window {
+    max-width: 80%;
+  }
+  .flyer-title {
+    font-size: 2.5vw; 
+    left: 5em;
+  }
+  .flyer {
+    max-width: 60%;
   }
 }
