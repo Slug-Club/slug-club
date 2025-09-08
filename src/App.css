@@ -9,12 +9,13 @@ body {
   font-style: normal;
   font-size: 24px;
 }
+
 .container {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -41,6 +42,8 @@ body {
   }
 }
 
+/* Center Logo */
+
 .logo-container {
   height: 100vh;
   margin: auto;
@@ -56,29 +59,165 @@ body {
   background-color: #699430;
   border-radius: 50%;
   filter: blur(80px);
-  z-index: 1;
+  z-index: 0;
   position: fixed;
 }
 
 .spacer {
-  height: 100vh;
-}
-
-.phone {
-  height: calc(50vh+100px);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  z-index: 3;
+  height: 30vh;
 }
 
 .bottom-spacer {
-  height: 35vh;
+  height: 50px;
 }
 
-/* @media (max-width: 500px) {
-  .circle {
-    height: 50px;
-    width: 50px;
+.window-container{
+  display: flex;
+}
+
+/* Mission Statement Window */
+
+.mission-statement-container {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: first baseline;
+  z-index: 6;
+}
+
+.mission-statement-window {
+  max-width: 85%;
+  height: auto;
+  position: relative;
+}
+
+.mission-title {
+  position: absolute;
+  top: -.7em;
+  z-index: 6;
+  left: 6em;
+  font-size: 1.20vw;
+}
+
+.mission-statement {
+  z-index: 5;
+  position: absolute;
+  font-size: 1.15vw;
+  top: 2em;
+  left: 6.5em;
+  max-width: 65%;
+  height: auto;
+}
+
+/* Flyer Window */
+
+.flyer-window {
+  max-width: 85%;
+  height: auto;
+  position: relative;
+}
+
+.flyer-container {
+  display: flex;
+  justify-content: flex-start;
+  right: 6em;
+  position: relative;
+  align-items: center;
+  z-index: 5;
+}
+
+.flyer {
+  position: absolute;
+  max-width: 70%;
+  height: auto;
+  z-index: 6;
+  top: 8%;
+  right: 25%;
+  object-fit: contain;
+}
+
+.flyer-title {
+  position: absolute;
+  z-index: 6;
+  top: -.75em;
+  left: 1em;
+  font-size: 1.20vw; 
+}
+
+/* Slug Window */
+
+.slug-window-container {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  right: 4em;
+  z-index: 6;
+}
+
+.slug-window {
+  max-width: 95%;
+}
+
+.slug-window-title {
+  position: absolute;
+  z-index: 6;
+  font-size: 1.20vw; 
+  left: .5em;
+  bottom: 21.75em;
+}
+
+/* Handling Phone Screens */
+
+@media (max-width: 600px) {
+  .window-container {
+    flex-direction: column;
+    justify-content: center;
   }
-} */
+  /* Mission Statement */
+  .mission-statement-container {
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  .mission-statement-window {
+    max-width: 80%;
+  }
+  .mission-title {
+    font-size: 2.5vw;
+    left: 5em;
+  }
+  .mission-statement {
+    font-size: 2.75vw;
+    max-width: 70%;
+    left: 5em;
+  }
+  /* Slug */
+  .slug-window-container {
+    padding-bottom: 1em;
+    justify-content: center;
+    right: 0em;
+  }
+  .slug-window-title {
+    font-size: 2.5vw;
+    bottom: 11em;
+    left: 11em;
+  }
+  .slug-window {
+    max-width: 50%;
+  }
+  /* Flyer */
+  .flyer-container {
+    justify-content: center;
+    right: 0em;
+  }
+  .flyer-window {
+    max-width: 80%;
+  }
+  .flyer-title {
+    font-size: 2.5vw; 
+    left: 5em;
+  }
+  .flyer {
+    max-width: 60%;
+  }
+}
