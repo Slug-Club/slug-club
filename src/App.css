@@ -220,4 +220,8 @@ body {
   .flyer {
     max-width: 60%;
   }
+  .circle {
+    animation: none;
+    animation-timeline: none;
+  }
 }
