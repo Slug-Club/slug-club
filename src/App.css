@@ -75,6 +75,33 @@ body {
   display: flex;
 }
 
+/* Caret Icon */
+
+.caret-icon {
+  position: fixed;
+  bottom: 3em;
+  height: 100px;
+  filter: invert(1);
+}
+
+@keyframes caret-icon-disappear {
+  from {
+    background-position: 50% 0;
+    height: 100px;
+  }
+  to {
+    background-position: 50% 100%;
+    height: 0px;
+  }
+}
+
+.caret-icon{
+  animation: caret-icon-disappear linear forwards;
+  animation-timeline: scroll();
+  animation-range: 0vh 90vh;
+}
+
+
 /* Mission Statement Window */
 
 .mission-statement-container {
