@@ -155,7 +155,7 @@ body {
 
 .flyer {
   position: absolute;
-  max-width: 70%;
+  max-width: 73%;
   height: auto;
   z-index: 6;
   top: 8%;
@@ -215,7 +215,7 @@ body {
   }
   .mission-statement {
     font-size: 2.75vw;
-    max-width: 70%;
+    max-width: 65%;
     left: 5em;
   }
   /* Slug */
