@@ -15,7 +15,7 @@ export default function Window() {
             39th lesbian bar in the country. We believe the Richmond Queer
             community deserves a space dedicated to joy, dancing, and tasty
             libations. We will not tolerate any phobias, isms, or the like. We
-            prioritize dykes, queers, and good times. What does your dream
+            prioritize dykes, trans folks, and good times. What does your dream
             lesbian bar look like? Let us know at{" "}
             <a href="tel:+18043964934">(804) 396-4934</a> or email us at{" "}
             <a href="mailto:slugrva@gmail.com">slugrva@gmail.com</a>
