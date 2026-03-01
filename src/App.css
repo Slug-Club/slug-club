@@ -155,11 +155,11 @@ body {
 
 .flyer {
   position: absolute;
-  max-width: 73%;
+  max-width: 74%;
   height: auto;
   z-index: 6;
   top: 8%;
-  right: 25%;
+  right: 24%;
   object-fit: contain;
 }
 
@@ -246,7 +246,7 @@ body {
   }
   .flyer {
     left: 2.5em;
-    max-width: 65%;
+    max-width: 70%;
   }
   .circle {
     animation: none;

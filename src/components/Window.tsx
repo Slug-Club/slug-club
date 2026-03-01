@@ -1,4 +1,4 @@
-import flyer from "../assets/flyer2.png";
+import moreEventsSoon from "../assets/more-events-soon.jpg";
 import largeWindow from "../assets/large-window.png";
 import smallWindow from "../assets/small-window.png";
 import slugWindow from "../assets/slug-window.png";
@@ -28,7 +28,7 @@ export default function Window() {
         <div className="flyer-container">
           <img className="flyer-window" src={largeWindow} />
           <p className="flyer-title">flyer.pdf</p>
-          <img className="flyer" src={flyer} />
+          <img className="flyer" src={moreEventsSoon} />
         </div>
       </div>
       <div className="bottom-spacer" />
