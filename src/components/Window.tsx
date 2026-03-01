@@ -26,9 +26,13 @@ export default function Window() {
           <img className="slug-window" src={slugWindow} />
         </div>
         <div className="flyer-container">
-          <img className="flyer-window" src={largeWindow} />
+          <img className="flyer-window" alt="Spotted Slug" src={largeWindow} />
           <p className="flyer-title">flyer.pdf</p>
-          <img className="flyer" src={moreEventsSoon} />
+          <img
+            className="flyer"
+            alt="Flyer with a message that says 'More Events Coming Soon'"
+            src={moreEventsSoon}
+          />
         </div>
       </div>
       <div className="bottom-spacer" />
