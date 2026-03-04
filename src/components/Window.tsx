@@ -1,5 +1,4 @@
 import flyer3 from "../assets/flyer3.png";
-import largeWindow from "../assets/large-window.png";
 import smallWindow from "../assets/small-window.png";
 import slugWindow from "../assets/slug-window.png";
 
