@@ -1,4 +1,5 @@
-import envelopeFlyer from "../assets/EnvelopeFlyer.png";
+import moreEventsSoon from "../assets/more-events-soon.jpg";
+import largeWindow from "../assets/large-window.png";
 import smallWindow from "../assets/small-window.png";
 import slugWindow from "../assets/slug-window.png";
 
@@ -7,11 +8,7 @@ export default function Window() {
     <div>
       <div className="window-container">
         <div className="mission-statement-container">
-          <img
-            className="mission-statement-window"
-            alt="Mission Statement Window"
-            src={smallWindow}
-          />
+          <img className="mission-statement-window" src={smallWindow} />
           <p className="mission-title">mission_statement.txt</p>
           <p className="mission-statement">
             Slug Club RVA was founded by five dykes on a mission to create the
@@ -26,15 +23,15 @@ export default function Window() {
         </div>
         <div className="slug-window-container">
           <p className="slug-window-title">slug.jpeg</p>
-          <img className="slug-window" alt="Spotted Slug" src={slugWindow} />
+          <img className="slug-window" src={slugWindow} />
         </div>
         <div className="flyer-container">
-          <img className="flyer-window" alt="Flyer Window" src={smallWindow} />
+          <img className="flyer-window" alt="Spotted Slug" src={largeWindow} />
           <p className="flyer-title">flyer.pdf</p>
           <img
             className="flyer"
             alt="Flyer with a message that says 'More Events Coming Soon'"
-            src={envelopeFlyer}
+            src={moreEventsSoon}
           />
         </div>
       </div>

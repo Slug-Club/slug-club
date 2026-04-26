@@ -139,7 +139,7 @@ body {
 /* Flyer Window */
 
 .flyer-window {
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
   position: relative;
 }
@@ -148,7 +148,6 @@ body {
   display: flex;
   justify-content: flex-start;
   right: 6em;
-  bottom: 6em;
   position: relative;
   align-items: center;
   z-index: 5;
@@ -156,18 +155,18 @@ body {
 
 .flyer {
   position: absolute;
-  max-width: 64%;
+  max-width: 74%;
   height: auto;
   z-index: 6;
-  top: 16%;
-  right: 23%;
+  top: 8%;
+  right: 24%;
   object-fit: contain;
 }
 
 .flyer-title {
   position: absolute;
   z-index: 6;
-  top: -.60em;
+  top: -.75em;
   left: 1em;
   font-size: 1.20vw; 
 }
@@ -179,8 +178,7 @@ body {
   position: relative;
   justify-content: flex-start;
   align-items: center;
-  right: 2em;
-  bottom: 2em;
+  right: 4em;
   z-index: 6;
 }
 
@@ -193,7 +191,7 @@ body {
   z-index: 6;
   font-size: 1.20vw; 
   left: .5em;
-  bottom: 13em;
+  bottom: 21.75em;
 }
 
 /* Handling Phone Screens */
@@ -224,7 +222,6 @@ body {
   .slug-window-container {
     padding-bottom: 1em;
     justify-content: center;
-    bottom: 0em;
     right: 0em;
   }
   .slug-window-title {
@@ -238,7 +235,6 @@ body {
   /* Flyer */
   .flyer-container {
     justify-content: center;
-    top: 0em;
     right: 0em;
   }
   .flyer-window {
@@ -249,8 +245,8 @@ body {
     left: 5em;
   }
   .flyer {
-    left: 4em;
-    max-width: 50%;
+    left: 2.5em;
+    max-width: 65%;
   }
   .circle {
     animation: none;
