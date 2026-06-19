@@ -1,4 +1,4 @@
-import moreEventsSoon from "../assets/more-events-soon.jpg";
+import flyer from "../assets/violet_tease.png";
 import largeWindow from "../assets/large-window.png";
 import smallWindow from "../assets/small-window.png";
 import slugWindow from "../assets/slug-window.png";
@@ -31,7 +31,7 @@ export default function Window() {
           <img
             className="flyer"
             alt="Flyer with a message that says 'More Events Coming Soon'"
-            src={moreEventsSoon}
+            src={flyer}
           />
         </div>
       </div>
