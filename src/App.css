@@ -171,6 +171,14 @@ body {
   font-size: 1.20vw; 
 }
 
+.flyer-link {
+  position: absolute;
+  z-index: 6;
+  bottom: 1em;
+  left: 1em;
+  font-size: 2vw; 
+}
+
 /* Slug Window */
 
 .slug-window-container {
@@ -247,6 +255,11 @@ body {
   .flyer {
     left: 2.5em;
     max-width: 65%;
+  }
+  .flyer-link {
+    font-size: 5vw;
+    left: 3em; 
+    bottom: 1.5em
   }
   .circle {
     animation: none;

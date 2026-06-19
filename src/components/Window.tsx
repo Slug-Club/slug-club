@@ -33,6 +33,9 @@ export default function Window() {
             alt="Flyer with a message that says 'More Events Coming Soon'"
             src={flyer}
           />
+          <a href="https://tinyurl.com/violettease2026" className="flyer-link">
+            Buy tickets here
+          </a>
         </div>
       </div>
       <div className="bottom-spacer" />
