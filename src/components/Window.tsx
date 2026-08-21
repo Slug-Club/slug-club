@@ -11,8 +11,8 @@ export default function Window() {
           <img className="mission-statement-window" src={smallWindow} />
           <p className="mission-title">mission_statement.txt</p>
           <p className="mission-statement">
-            Slug Club RVA was founded by five dykes on a mission to create the
-            39th lesbian bar in the country. We believe the Richmond Queer
+            Slug Club RVA was founded by five dykes on a mission to create a
+            premier lesbian bar in River City. We believe the Richmond Queer
             community deserves a space dedicated to joy, dancing, and tasty
             libations. We will not tolerate any phobias, isms, or the like. We
             prioritize dykes, trans folks, and good times. What does your dream
