@@ -1,4 +1,4 @@
-import flyer from "../assets/violet_tease.png";
+import flyer from "../assets/more-events-soon.jpg";
 import largeWindow from "../assets/large-window.png";
 import smallWindow from "../assets/small-window.png";
 import slugWindow from "../assets/slug-window.png";
@@ -17,7 +17,6 @@ export default function Window() {
             libations. We will not tolerate any phobias, isms, or the like. We
             prioritize dykes, trans folks, and good times. What does your dream
             lesbian bar look like? Let us know at{" "}
-            <a href="tel:+18043964934">(804) 396-4934</a> or email us at{" "}
             <a href="mailto:slugrva@gmail.com">slugrva@gmail.com</a>
           </p>
         </div>
@@ -33,9 +32,6 @@ export default function Window() {
             alt="Flyer with a message that says 'More Events Coming Soon'"
             src={flyer}
           />
-          <a href="https://tinyurl.com/violettease2026" className="flyer-link">
-            Buy tickets here
-          </a>
         </div>
       </div>
       <div className="bottom-spacer" />
